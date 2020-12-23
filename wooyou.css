@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap");
 body {
   background-color: rgb(203, 231, 255);
   height: 2000px;
@@ -7,8 +8,6 @@ header {
   position: fixed;
 
   height: 60px;
-  width: 100%;
-  z-index: 99999;
 }
 .logo {
   margin-left: 20px;
@@ -25,6 +24,8 @@ header {
   left: 100px;
 }
 .intro2 {
-  top: 80px;
-  left: 200px;
+  position: relative;
+  top: 50px;
+  left: 500px;
+  font-family: "Gothic A1", sans-serif;
 }
