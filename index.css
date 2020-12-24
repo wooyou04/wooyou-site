@@ -74,7 +74,6 @@ header {
   border-right: 1px solid black;
   font-size: 20px;
   text-align: center;
-  cursor: pointer;
 }
 .vitamin {
   margin-top: 70px;
@@ -96,7 +95,6 @@ header {
   border-right: 1px solid black;
   font-size: 20px;
   text-align: center;
-  cursor: pointer;
 }
 .lip {
   margin-top: 50px;
@@ -118,7 +116,6 @@ header {
   border-right: 1px solid black;
   font-size: 20px;
   text-align: center;
-  cursor: pointer;
 }
 .news {
   margin-top: 70px;
@@ -141,7 +138,6 @@ header {
   border-bottom-right-radius: 5%;
   font-size: 20px;
   text-align: center;
-  cursor: pointer;
 }
 .clab {
   margin-top: 70px;
