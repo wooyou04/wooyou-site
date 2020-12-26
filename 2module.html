@@ -12,20 +12,208 @@
         <div class="inner-container">
             <div class="logo" id="logo"><a style="color: black;"
                     href="file:///C:/Users/Melody/Documents/GitHub/wooyou-site/index.html">WOOYOU
-                    package</a></div>
+                    package</a>
+                <div class="module">2 module</div>
+            </div>
+
         </div>
     </header>
+    <div class="ebook">
+
+        <div class="twomd" id="test">
+            <div class="twomdinner">
+                <img src="2.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+            <div class="twomdinner">
+                <img src="2-1.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+            <div class="twomdinner">
+                <img src="2-2.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+            <div class="twomdinner">
+                <img src="2-2-1.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+            <div class="twomdinner">
+                <img src="2-3.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+            <div class="twomdinner">
+                <img src="2-4.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+            <div class="twomdinner">
+                <img src="2-5.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+            <div class="twomdinner">
+                <img src="2-6.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+            <div class="twomdinner">
+                <img src="2-7.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+            <div class="twomdinner">
+                <img src="2-8.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+            <div class="twomdinner">
+                <img src="2-9.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+            <div class="twomdinner">
+                <img src="2-10.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+            <div class="twomdinner">
+                <img src="2-11.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+            <div class="twomdinner">
+                <img src="2-12.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+            <div class="twomdinner">
+                <img src="2-13.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+            <div class="twomdinner">
+                <img src="2-14.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+            <div class="twomdinner">
+                <img src="2-15.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+            <div class="twomdinner">
+                <img src="2-16.png" alt="개주프1" width="800px" height="400px" />
+            </div>
+        </div>
+
+    </div>
+    <br><br><br><br>
+    <div id="twobox">
+        <div class="head">
+            <strong>학습내용</strong>
+        </div>
+        <br>
+        <div class="naeyong">
+            주제: 또래상담에 대해
+            <br>
+            - 일반상담과 또래상담의 차이점 학습
+            <br>
+            - 심리학에 대한 책읽기 (설득의 심리학, 당신이 옳다)
+            <br>
+            - 내가 지금까지 했던 또래상담 과정을 찾고 느낀점 정리
+
+        </div>
+        <br>
+        <div class="head1">
+            <strong>학습이유</strong>
+        </div>
+        <br>
+        <div class="naeyong1">
+            주제가 또래상담이라고 했을 때 가장 궁금한 것은 또래상담과 일반 상담의 차이점이라 생각했다.
+            심리학에 대한 책을 읽고 학습한 뒤 그 책에서 얻은 생각과 나의 경험을 엮었다.
+
+        </div>
+        <br>
+        <div class="head2">
+            <strong>달성 및 느낀점</strong>
+        </div>
+        <br>
+        <div class="naeyong2">
+            17세의 청소년 상담이라는 부제목으로 나만의 책을 써내려 갈 수 있었다. 전에는 학습한 것을 그저 정리한 것이었다고 하면 2모듈에 쓴 이북은 내가 전부터 해왔고 관심있던 주제로 탐구하며 나의
+            경험과 생각을 정리한 책을 썼다.
+
+        </div>
+    </div>
+
+
+
+
+
+
+
     <style>
+        @import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap");
+
         .logo {
             margin-left: 20px;
             font-family: "Asap", sans-serif;
             font-size: 35px;
+            border-bottom: 3px solid black;
         }
 
         .logo a {
             text-decoration: none;
         }
+
+        .module {
+            position: relative;
+            float: right;
+            font-size: 25px;
+            top: 10px;
+        }
+
+        .twomd {
+            width: 800*24px;
+            display: flex;
+            animation: slide 120s 0s 99999;
+        }
+
+        .twomdinner {
+            width: 800px;
+            height: 400px;
+        }
+
+        .ebook {
+            width: 800px;
+            height: 400px;
+            overflow: hidden;
+            padding: 30px;
+            margin: auto;
+
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translate(0);
+            }
+
+            50% {
+                transform: translate(-12800px);
+            }
+
+            100% {
+                transform: translate(0);
+            }
+        }
+
+        #twobox {
+            background-color: #f7c1c1;
+            color: white;
+            width: 1200px;
+            height: 400px;
+            padding: 20px;
+            border-radius: 20px;
+            box-sizing: border-box;
+            margin: auto;
+            color: black;
+        }
+
+        .head,
+        .head1,
+        .head2 {
+            font-family: "Sunflower", sans-serif;
+        }
     </style>
+    <script>
+        var twobox = document.getElementById('twobox')
+        function boxover(id) {
+            id.style.width = '1250px'
+            id.style.height = '450px'
+        }
+        function boxout(id) {
+            id.style.width = '1200px'
+            id.style.height = '400px'
+        }
+        twobox.addEventListener('mouseover', function () {
+            boxover(twobox)
+        })
+        twobox.addEventListener('mouseout', function () {
+            boxout(twobox)
+        })
+
+    </script>
+
 
 </body>
 
