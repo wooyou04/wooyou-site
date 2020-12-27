@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap");
 body {
   background-color: rgb(225, 241, 255);
-  height: 6000px;
+  height: 5000px;
   width: 990px;
 }
 .inner-container {
@@ -30,7 +30,6 @@ header {
 }
 .intro2 {
   position: relative;
-  top: 20px;
   left: 550px;
   font-family: "Sunflower", sans-serif;
   font-size: 35px;
@@ -188,4 +187,99 @@ a {
 }
 .btext4 a:hover {
   color: rgb(212, 107, 107);
+}
+.brown {
+  display: inline-block;
+  position: absolute;
+  width: 1600px;
+  height: 700px;
+  left: 0px;
+  top: 1150px;
+  background: #3a2c23;
+}
+.team {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  padding: 10px;
+  border: 3px solid #463f30;
+  border-radius: 10%;
+  color: white;
+}
+.tp {
+  position: relative;
+  font-family: "Sunflower", sans-serif;
+  font-size: 30px;
+  /* text-align: center; */
+  top: 10%;
+  left: 39%;
+  color: white;
+}
+.tbox {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 100%;
+  position: relative;
+  top: 180px;
+  left: 400px;
+  padding: 20px;
+  background-color: white;
+}
+.tropical {
+  position: relative;
+  top: 60px;
+  text-align: center;
+  z-index: 9999;
+  font-size: 18px;
+}
+.tpbox {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 100%;
+  position: relative;
+  bottom: 60px;
+  left: 850px;
+  padding: 20px;
+  background-color: white;
+  z-index: 9999;
+}
+.tp2 {
+  position: relative;
+  top: 60px;
+  text-align: center;
+  z-index: 9999;
+  font-size: 18px;
+}
+.mag {
+  color: white;
+  position: relative;
+  left: 440px;
+  font-size: 30px;
+}
+.pro {
+  color: white;
+  position: relative;
+  left: 910px;
+  bottom: 40px;
+  font-size: 30px;
+}
+.tropical a:link {
+  color: black;
+}
+.tropical a:visited {
+  color: black;
+}
+.tropical a:hover {
+  color: rgb(202, 191, 39);
+}
+.tp2 a:link {
+  color: black;
+}
+.tp2 a:visited {
+  color: black;
+}
+.tp2 a:hover {
+  color: rgb(202, 191, 39);
 }

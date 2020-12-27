@@ -12,20 +12,139 @@
         <div class="inner-container">
             <div class="logo" id="logo"><a style="color: black;"
                     href="file:///C:/Users/Melody/Documents/GitHub/wooyou-site/index.html">WOOYOU
-                    package</a></div>
+                    package</a>
+                <div class="module">4 module</div>
+            </div>
         </div>
     </header>
+    <div class="ongoing">
+        <span>진</span>
+        <span>행</span>
+        <span>중</span>
+        <span>.</span>
+        <span>.</span>
+        <span>.</span>
+    </div>
+    <div id="planbox">
+        <div class="plan">
+            <strong>MY PLAN</strong>
+            <br><br>
+        </div>
+        <div class="naeyong">
+
+            1. 교과공부 계속 하기
+            1모듈때부터 방과후 시간에 따로 필요하다고 생각되는 교과공부들을 해왔는데 4모듈에도 꾸준히 이어나갈 것이다.(수학_ 강의&문제집 풀기, 영어_ 단어&화상영어, 과학_강의&문제집 풀기)
+            <br><br>
+            2. C랩에서 배우는 것들 익혀서 나만의 웹사이트 만들기
+            처음 배워서 어렵지만 배운것들을 복습하며 나중에 내가 따로 만들고 싶은 웹사이트 만들기에 도전해볼 것이다.
+            <br><br>
+            3. 그외... 책 많이 읽기, 팀프로젝트 원인 확실히 찾고 해결방안 탐색하기 등등
+        </div>
+    </div>
     <style>
+        @import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+
         .logo {
             margin-left: 20px;
             font-family: "Asap", sans-serif;
             font-size: 35px;
+            border-bottom: 3px solid black;
         }
 
         .logo a {
             text-decoration: none;
         }
+
+        .module {
+            position: relative;
+            float: right;
+            font-size: 25px;
+            top: 10px;
+        }
+
+        .ongoing {
+            font-family: "Sunflower", sans-serif;
+            font-size: 50px;
+            position: relative;
+            top: 50px;
+            text-align: center;
+
+        }
+
+        .ongoing span {
+            display: inline-block;
+            margin: 0 -.075em;
+            animation: ongoing.7s infinite alternate;
+        }
+
+        .ongoing span:nth-child(2) {
+            animation-delay: .1s;
+        }
+
+        .ongoing span:nth-child(3) {
+            animation-delay: .2s;
+        }
+
+        .ongoing span:nth-child(4) {
+            animation-delay: .3s;
+        }
+
+        .ongoing span:nth-child(5) {
+            animation-delay: .4s;
+        }
+
+        .ongoing span:nth-child(6) {
+            animation-delay: .5s;
+        }
+
+        @keyframes ongoing {
+            0% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(0.8);
+            }
+        }
+
+        #planbox {
+            background-color: #f7c1c1;
+            color: white;
+            position: relative;
+            top: 100px;
+            width: 1000px;
+            height: 300px;
+            padding: 10px;
+            border-radius: 20px;
+            box-sizing: border-box;
+            margin: auto;
+            color: black;
+        }
+
+        .plan {
+            font-family: "Asap", sans-serif;
+            font-size: 20px;
+        }
     </style>
+    <script>
+        var planbox = document.getElementById('planbox')
+        function boxover(id) {
+            id.style.width = '1050px'
+            id.style.height = '350px'
+        }
+        function boxout(id) {
+            id.style.width = '1000px'
+            id.style.height = '300px'
+        }
+        planbox.addEventListener('mouseover', function () {
+            boxover(planbox)
+        })
+        planbox.addEventListener('mouseout', function () {
+            boxout(planbox)
+        })
+
+    </script>
 
 </body>
 
