@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap");
+
+.logo {
+  margin-left: 20px;
+  font-family: "Asap", sans-serif;
+  font-size: 35px;
+  border-bottom: 3px solid black;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.module {
+  position: relative;
+  float: right;
+  font-size: 25px;
+  top: 10px;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide img {
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  max-height: 400px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  width: 800px;
+  height: 400px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+:root {
+  --swiper-theme-color: #d49466;
+}
+.onemd {
+  width: 800 * 24px;
+  display: flex;
+  animation: slide 120s 0s 99999;
+  animation-timing-function: linear;
+}
+
+.onemdinner {
+  width: 800px;
+  height: 400px;
+}
+
+.ebook {
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  padding: 30px;
+  margin: auto;
+}
+#onebox {
+  background: linear-gradient(to bottom, #ee9ca7, #ffdde1);
+  width: 1200px;
+  height: 430px;
+  padding: 20px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: auto;
+  color: black;
+}
+
+.head,
+.head1,
+.head2 {
+  font-family: "Sunflower", sans-serif;
+}

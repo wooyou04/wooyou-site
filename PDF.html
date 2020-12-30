@@ -46,65 +46,127 @@
 
                 <img src="t1 (7).png" alt="개주프1" width="700px" height="400px" />
             </div>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div id="tbox">
+        <br>
+        <div class="head">
+            <strong>학습내용</strong>
+        </div>
+        <br>
+        <div class="naeyong">
+            우리 팀의 이름은 PDF 즉 'protectors of the deaf' 청각장애인들을 지킨다는 의미를 지녔다. 이름이 PDF인 이유는 우리팀의 주제가
+            '청각장애인의 화재대피가
+            어렵다'이고 청각장애인이 화재상황에 노출되었을 때 대피하기가 쉽게 하기 위해 프로젝트를 진행하고 있기 때문이다. 청각장애인은 화재경보기 소리를 들을 수 있는 사람들과 다르게 소리를
+            못듣기 때문에 위험상황을 인지하는데에 있어 어려움을 느낀다. 현재 PDF팀은 정확한 원인을 찾기 위해 우리만의 가설을 세우고 그 가설을 청각장애인들을 바탕으로 한 설문조사와
+            인터뷰로 검증해 나가고 있다.
+        </div>
 
+        <br>
+        <div class="head2">
+            <strong>달성 및 느낀점</strong>
+        </div>
+        <br>
+        <div class="naeyong2">
+            처음부터 이 주제를 하려고 한 것은 아니다. 하지만 성길이 던진 청각장애인 화재대피라는 키워드를 보고 뉴스나 커뮤니티에서도 많이 이슈화 되는 주제인것 같아 프로젝트에 동참하게
+            되었었다. 하지만 진행을 하면 할 수록 화재 대피가 아닌 화재 인지과정에 초점을 맞추어 솔루션을 내려 하는 것이 더 의미있다는 생각이 들었고 이어서 계속 진행하게 되었다.
 
-            <style>
-                @import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap");
-                @import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+        </div>
+    </div>
 
-                .logo {
-                    margin-left: 20px;
-                    font-family: "Asap", sans-serif;
-                    font-size: 35px;
-                    border-bottom: 3px solid black;
-                }
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
 
-                .logo a {
-                    text-decoration: none;
-                }
+        .logo {
+            margin-left: 20px;
+            font-family: "Asap", sans-serif;
+            font-size: 35px;
+            border-bottom: 3px solid black;
+        }
 
-                .module {
-                    position: relative;
-                    float: right;
-                    font-size: 25px;
-                    top: 10px;
-                }
+        .logo a {
+            text-decoration: none;
+        }
 
-                .team {
-                    width: 700*7px;
-                    display: flex;
-                    animation: slide 40s 0s 99999;
-                    animation-timing-function: linear;
-                }
+        .module {
+            position: relative;
+            float: right;
+            font-size: 25px;
+            top: 10px;
+        }
 
-                .teaminner {
-                    width: 700px;
-                    height: 400px;
-                }
+        .team {
+            width: 700*7px;
+            display: flex;
+            animation: slide 40s 0s 99999;
+            animation-timing-function: linear;
+        }
 
-                .ebook {
-                    width: 700px;
-                    height: 400px;
-                    overflow: hidden;
-                    padding: 30px;
-                    margin: auto;
+        .teaminner {
+            width: 700px;
+            height: 400px;
+        }
 
-                }
+        .ebook {
+            width: 700px;
+            height: 400px;
+            overflow: hidden;
+            padding: 30px;
+            margin: auto;
 
-                @keyframes slide {
-                    0% {
-                        transform: translate(0);
-                    }
+        }
 
-                    50% {
-                        transform: translate(-4200px);
-                    }
+        @keyframes slide {
+            0% {
+                transform: translate(0);
+            }
 
-                    100% {
-                        transform: translate(0);
-                    }
-                }
-            </style>
+            50% {
+                transform: translate(-4200px);
+            }
+
+            100% {
+                transform: translate(0);
+            }
+        }
+
+        #tbox {
+            background: linear-gradient(to bottom, #b79891, #94716b);
+            color: white;
+            width: 1200px;
+            height: 350px;
+            padding: 20px;
+            border-radius: 20px;
+            box-sizing: border-box;
+            margin: auto;
+            color: black;
+        }
+
+        .head,
+        .head2 {
+            font-family: "Sunflower", sans-serif;
+        }
+    </style>
+    <script>
+        var tbox = document.getElementById('tbox')
+        function boxover(id) {
+            id.style.width = '1250px'
+            id.style.height = '400px'
+        }
+        function boxout(id) {
+            id.style.width = '1200px'
+            id.style.height = '350px'
+        }
+        tbox.addEventListener('mouseover', function () {
+            boxover(tbox)
+        })
+        tbox.addEventListener('mouseout', function () {
+            boxout(tbox)
+        })
+
+    </script>
 </body>
 
 </html>
