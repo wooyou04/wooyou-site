@@ -97,6 +97,7 @@
     </div>
     <br><br><br><br>
     <div id="onebox">
+        <br>
         <div class="head">
             <strong>학습내용</strong>
         </div>
@@ -199,10 +200,9 @@
         }
 
         #onebox {
-            background-color: #f7c1c1;
-            color: white;
+            background: linear-gradient(to bottom, #ee9ca7, #ffdde1);
             width: 1200px;
-            height: 400px;
+            height: 430px;
             padding: 20px;
             border-radius: 20px;
             box-sizing: border-box;
@@ -221,11 +221,11 @@
         var onebox = document.getElementById('onebox')
         function boxover(id) {
             id.style.width = '1250px'
-            id.style.height = '450px'
+            id.style.height = '460px'
         }
         function boxout(id) {
             id.style.width = '1200px'
-            id.style.height = '400px'
+            id.style.height = '430px'
         }
         onebox.addEventListener('mouseover', function () {
             boxover(onebox)
