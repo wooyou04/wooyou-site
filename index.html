@@ -38,19 +38,19 @@
 
                 <img class="vitamin" src="비타민.png">
                 <br>
-                <div class="btext1"><a href="./1module.html"><strong>1 module <br> 비타민</strong></a> </div>
+                <div class="btext1"><a href="./new.html"><strong>1 module <br> 비타민</strong></a> </div>
             </div>
 
 
             <div class="gbox2">
                 <img class="lip" src="입.png">
                 <br>
-                <div class="btext2"><a href="./2module.html"> <strong>2 module <br> 상담</strong></a></div>
+                <div class="btext2"><a href="./22module.html"> <strong>2 module <br> 상담</strong></a></div>
             </div>
             <div class="gbox3">
                 <img class="news" src="신문.png">
                 <br>
-                <div class="btext3"><a href="./3module.html"><strong>3 module <br> 팩트체크</strong></a> </div>
+                <div class="btext3"><a href="./33module.html"><strong>3 module <br> 팩트체크</strong></a> </div>
             </div>
             <div class="gbox4">
                 <img class="clab" src="컴터.png">
@@ -67,7 +67,7 @@
             <strong>우유 항공의 팀패키지</strong>
         </div>
         <div class="tbox">
-            <div class="tropical"><a href="./tropical.html">
+            <div class="tropical"><a href="./trop.html">
                     <strong>열대화</strong>
                     <br>
                     한반도의 기후변화
@@ -79,7 +79,7 @@
 
 
         <div class="tpbox">
-            <div class="tp2"><a href="./PDF.html">
+            <div class="tp2"><a href="./team.html">
                     <strong>PDF</strong>
                     <br>
                     청각장애인의 <br> 화재대피가 어렵다
@@ -93,12 +93,53 @@
             PROJECT
         </div>
     </div>
-
-    <footer>
-        <div class="info">
-            <strong>우유 항공| </strong>
+    <div class="rec">
+        <div class="text">
+            <br><br>
+            <strong>추천 여행지</strong>
         </div>
-    </footer>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"> <a href="./trop.html"><img src="추천1.png" width="800px"></a></div>
+                <div class="swiper-slide"><a href="./22module.html"><img src="추천2.png" width="800px"></a></div>
+                <div class="swiper-slide"><a href="./33module.html"><img src="추천3.png" width="800px"></a></div>
+
+
+
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script>
+
+
+        <footer>
+            <div class="info">
+                <strong>우유 항공| </strong>natali@futureclass.net
+                &nbsp; <strong>팀 PDF| </strong>teampdf@futureclass.net
+
+            </div>
+
+        </footer>
 
 
 </body>

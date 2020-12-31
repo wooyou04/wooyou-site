@@ -48,7 +48,7 @@ body {
   font-size: 18px;
   width: 800px;
   height: 400px;
-
+  margin: auto;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -64,27 +64,9 @@ body {
   align-items: center;
 }
 :root {
-  --swiper-theme-color: #d49466;
-}
-.onemd {
-  width: 800 * 24px;
-  display: flex;
-  animation: slide 120s 0s 99999;
-  animation-timing-function: linear;
+  --swiper-theme-color: #ee9ca7;
 }
 
-.onemdinner {
-  width: 800px;
-  height: 400px;
-}
-
-.ebook {
-  width: 800px;
-  height: 400px;
-  overflow: hidden;
-  padding: 30px;
-  margin: auto;
-}
 #onebox {
   background: linear-gradient(to bottom, #ee9ca7, #ffdde1);
   width: 1200px;

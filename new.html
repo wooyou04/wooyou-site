@@ -113,6 +113,21 @@
                 prevEl: '.swiper-button-prev',
             },
         });
+        var onebox = document.getElementById('onebox')
+        function boxover(id) {
+            id.style.width = '1250px'
+            id.style.height = '460px'
+        }
+        function boxout(id) {
+            id.style.width = '1200px'
+            id.style.height = '430px'
+        }
+        onebox.addEventListener('mouseover', function () {
+            boxover(onebox)
+        })
+        onebox.addEventListener('mouseout', function () {
+            boxout(onebox)
+        })
     </script>
 </body>
 
