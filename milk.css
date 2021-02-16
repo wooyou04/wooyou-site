@@ -31,6 +31,8 @@
   padding-left: 30px;
 }
 .first img {
+  position: relative;
+  left: -100px;
   margin-top: 30px;
   margin-right: 10px;
 }
@@ -38,10 +40,11 @@
   font-weight: bold;
 }
 .ftxt {
+  position: relative;
   font-family: "Sunflower", sans-serif;
   font-size: 35px;
   text-align: center;
-  float: left;
+  left: -80px;
 }
 .second {
   display: flex;
